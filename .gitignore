@@ -1,0 +1,35 @@
+# Variables de entorno (SECRETOS - NUNCA subir)
+.env
+.env.local
+.env.production
+
+# Dependencias (se pueden reinstalar)
+node_modules/
+vendor/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Base de datos local
+data/
+*.sql.backup
+
+# Certificados SSL
+*.pem
+*.key
+*.crt
+
+# n8n data
+n8n-data/
